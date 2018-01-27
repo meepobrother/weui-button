@@ -1,0 +1,24 @@
+{
+    "name": "weui-button",
+    "version": "1.3.9",
+    "repository": "https://github.com/meepobrother/weui-button",
+    "author": "david <david@spektrakel.de>",
+    "license": "MIT",
+    "private": false,
+    "peerDependencies": {
+        "@angular/core": "*",
+        "rxjs": "*"
+    },
+    "scripts": {
+        "git": "git add . && git commit -m 'update to save' && git push origin master"
+    },
+    "ngPackage": {
+        "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+        "dest": "./publish/weui-button",
+        "workingDirectory": "./.ng_build",
+        "lib": {
+            "entryFile": "./public_api.ts"
+        }
+    },
+    "dependencies": {}
+}
