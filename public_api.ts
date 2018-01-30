@@ -1,10 +1,11 @@
-import { WeuiButtonPreviewComponent } from './weui-button-preview/weui-button-preview';
+import { WeuiButtonPreviewComponent, WeuiButtonDefault } from './weui-button-preview/weui-button-preview';
 import { WeuiButtonSettingComponent } from './weui-button-setting/weui-button-setting';
 
 export const both = {
     'weui-button': {
         setting: WeuiButtonSettingComponent,
-        view: WeuiButtonPreviewComponent
+        view: WeuiButtonPreviewComponent,
+        default: WeuiButtonDefault
     }
 };
 
